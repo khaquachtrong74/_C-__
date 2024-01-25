@@ -72,7 +72,42 @@ class compareValue{
         }
         
 };
+// công thức tính thêm 
+//
 int sum(int a, int b){
     return a+b;
 }
-// Khu vực dưới để code tổng hợp, chỉnh hợpg
+int minus(int a, int b){
+    return a-b;
+}
+tp
+val multip(val a, val b){
+    return a*b;
+}
+tp
+val divide(val a, val b){
+    while(b == 0){
+        cout<<"Invald value, please try again := ";cin>>b;
+    }
+    return a/b;
+}
+// công thức giai thừa- tổ hợp- chỉnh hợp
+class factorial{
+    public:
+    factorial(){
+
+    }
+    static int Factorial(int a){
+        int giaithua = 1;
+        for(int i = 1; i <= a; i++){
+            giaithua *= i;
+        }
+        return giaithua;
+    }
+    static int Combination_F(int n, int k){
+        return Factorial(n)/(Factorial(k)*Factorial(n-k));
+    }
+    static int Arrangement_F(int n, int k){
+        return Factorial(n)/Factorial(n-k);
+    }
+};
