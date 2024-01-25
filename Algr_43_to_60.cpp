@@ -235,6 +235,7 @@ int main(){
 	int ketqua;
 	cout<<"NHAP N VAO DAY := ";cin>>n;
 	const int N = n;
+	label:{ 
 	cout<<"BAI 1	: Dem so luong chu so cua so nguyen duong n"<<endl;
 	ketqua = Count_Nums(N);
 	cout<<setw(15)<<"="<<ketqua<<endl;
@@ -279,6 +280,15 @@ int main(){
 	cout<<"BAI 15: Kiem tra cac chu so nguyen duong n co tang dan tu trai sang phai hay khong"<<endl;
 	ketqua = Review_Increasing(N);
 	cout<<endl;
+	}
+	int c;
+	cout<<"NHap 1 de tiep tuc hoac bat ki nut de ket thuc chuong trinh.";cin>>c;
+	if(c == 1){
+		goto label;
+	}
+	else{
+		cout<<"Ket thuc chuong trinh."<<endl;
+	}
 	return 0;
 }
 
