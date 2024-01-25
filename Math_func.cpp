@@ -72,3 +72,7 @@ class compareValue{
         }
         
 };
+int sum(int a, int b){
+    return a+b;
+}
+// Khu vực dưới để code tổng hợp, chỉnh hợpg
