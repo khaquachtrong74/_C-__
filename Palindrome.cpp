@@ -43,4 +43,5 @@ int main(){
     else{
         cout<<"Day khong phai la so nguyen to Palindrome ";
     }
+    /* SO palindrome la so vua laf so nguyen to vua la */
 }

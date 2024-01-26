@@ -17,11 +17,38 @@ int main(){
     // as.display();
     
     // Class Person
-    Person a;
-    a.setAddress("Dak nhau, thong nhat");
-    a.setAge(32);
-    a.setId(123412);
-    a.setName("Kha");
-    cout<<a.getAddress()<<" "<<a.getAge()<<" "<<a.getId()<<" "<<a.getName()<<endl;
+    // Person a;
+    // a.setAddress("Dak nhau, thong nhat");
+    // a.setAge(32);
+    // a.setId(123412);
+    // a.setName("Kha");
+    // cout<<a.getAddress()<<" "<<a.getAge()<<" "<<a.getId()<<" "<<a.getName()<<endl;
+
+    //Test REctangle;
+    // Rectangle r(4, 5);
+	// cout << "Area: " << r.getArea() << endl;
+	// cout << "Perimeter: " << r.getPerimeter() << endl;
+	// r.setLength(2);
+	// r.setWidth(3);
+	// cout << "Area: " << r.getArea() << endl;
+	// cout << "Perimeter: " << r.getPerimeter() << endl;
+
+    //Student_02
+    // Student s(1001, "Trung", 24, "Ha Noi", 5);
+	// cout << s.getId() << endl;
+	// cout << s.getName() << endl;
+	// cout << s.getAge() << endl;
+	// cout << s.getAddress() << endl;
+	// cout << s.getScore() << endl;
+	// s.setScore(-7);
+	// cout << s.getScore() << endl;
+	// s.setScore(15);
+	// cout << s.getScore() << endl;
+
+    //Employee.cpp
+    Employee e(1, "Kien", "Hoang", 1000);  
+	cout << "Id: " << e.getId() << endl;
+	cout << "Name: " << e.getFullName() << endl;
+	cout << "Salary: " << e.getSalary() << endl;
     return 0;
 }

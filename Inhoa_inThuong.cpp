@@ -82,6 +82,19 @@ void cau2(){
 int main(){
     // ý tưởng là những vị trí sau khoảng trắng thứ i và trước khoảng trắng thứ i+1 sẽ được in hoa còn lại sẽ in thường
     cau2();
-    
+    /*có cách khác nhanh hơn,*/
+    // sử dụng git
+    /* 
+        Thư mục đang làm việc                       Staging Area                Commited
+        inhoa_inThuong.cpp      git add namefile
+        ------------>                               Math_func.cpp
+        Palidrome.cpp
+    */
+
+
+
+
+
+// khong co gi
     return 0;
 }
