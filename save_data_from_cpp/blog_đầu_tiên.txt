@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+<html>
+<title>blog_dau_tien</title>
+<head>Ngày 29 tháng 12 năm 2023</head>
+<h1>Nhận thức ?</h1>
+<p align="center"> Mỗi ngày đều trải qua cảm giác lười, mệt mỏi, không có năng lượng làm việc và chỉ thực hiện khi có động lực.<br> Đó là một khoảng trải nghiệm chân thực về cách mà một con người trở nên mềm yếu và tệ hại như nào đến tinh thần và sức khoẻ.<br><big>Sau</big> khi dùng một thời gian ngắn để trải nghiệm cảm giác này, thì bản thân mỗi người có lẽ sẽ cân nhắc được mỗi hướng đi trong đời và có thể xem như việc nhận thức được hiện tại chính là một bước tiến lớn và ta cần hành động để có thể hoàn thành chặng đường mà ta đã lựa chọn.
+</html>
